@@ -1,0 +1,13 @@
+{{extends "../layout.jet"}}
+
+{{block documentBody()}}
+<header>
+    <h1>Welcome to our Go with Echo app</h1>
+    <nav>
+        <ul>
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+    </nav>
+</header>
+{{end}}

@@ -1,0 +1,22 @@
+{{extends "../../layout.jet"}}
+
+{{block documentBody()}}
+<div class="row">
+    <h1>User Profile</h1>
+    <button id="createPost">Create new note</button>
+    
+    <h2>Your posts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    <script src="/js/posts/createPost.js"></script>
+
+{{ end }}
